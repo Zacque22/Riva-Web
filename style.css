@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(145deg, rgba(37, 37, 37, 1) 0%, rgba(58, 28, 113, 1) 100%);
+  color: #fff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  background-color: #3a1c71; /* Violet background */
+  padding: 20px;
+  border-bottom: 1px solid #444;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #61dafb; /* Light blue link color */
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+.header-links {
+  margin-top: 20px;
+}
+
+.header-links .btn {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: #1e1e1e;
+  text-decoration: none;
+  font-size: 1.1em;
+  border-radius: 5px;
+  margin: 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.header-links .btn:hover {
+  background-color: #4fa3e0;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+#welcome-banner {
+  margin-top: 20px;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#features {
+  padding: 40px;
+  text-align: center;
+  background: rgba(58, 28, 113, 0.8); /* Violet background with slight transparency */
+  border-radius: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #61dafb;
+  margin-bottom: 20px;
+}
+
+.feature-container {
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* Slight black background to blend with content */
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px); /* Blurred background effect */
+}
+
+.feature-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+footer {
+  background-color: #3a1c71; /* Violet background */
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links .btn {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: #1e1e1e;
+  text-decoration: none;
+  font-size: 1.1em;
+  border-radius: 5px;
+  margin: 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.footer-links .btn:hover {
+  background-color: #4fa3e0;
+}
